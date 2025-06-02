@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap');
+@import "tailwindcss";
+@font-face {
+  font-family: 'clash-grotesk';
+  src: url('./assets//fonts/ClashGrotesk-Variable.ttf');
+  font-style: normal;
+}
+
+:root{
+  --white: #FFFFFF;
+  --black: #111;
+  --text-secondary: #A9AAA9;
+  --text-tertiary: #383938;
+  --hover-bg-color: rgba(255, 255, 255, 0.10);
+  --btn-hover-bg-color: #0A0A20;
+  --font-inter: 'Inter Tight', sans-serif;
+  --font-clash: 'clash-grotesk';
+  --bg-tint: rgba(255, 255, 255, 0.01);
+} 
+
+body{
+  background-color: var(--black);
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+.how-we-do-it-bg{
+  background-image: url('./assets/images/how-we-do-it.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.container-wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.home-bg{
+  background-image: url('./assets/images/Timeline\ 3.webm');
+  background-size: cover;
+  background-position: center;
+  min-height: 1080px;
+  width: 100%;
+}
+
+.about-us-bg{
+  background-image: url('./assets/images/aboutbg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 1080px;
+  width: 100%;
+} 
+
+.ourIdentity-bg{
+  background-image: url('./assets/images/ouridentitybg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.bg-ourvalues{
+  background-image: url('./assets/images/aboutvaluesbg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.contact-us-bg{
+  background-image: url('./assets/images/contactUsbg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+h1{
+  font-size:56px;
+  font-weight: 300;
+  line-height: 62px;
+  letter-spacing: 0.5px;
+  font-family: 'clash-grotesk';
+}
+
+h2{
+  font-size:44px;
+  font-weight: 300;
+  line-height: 53px;
+  letter-spacing: 0.5px;
+  font-family: 'clash-grotesk';
+}
+
+h3{
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: 0.5px;
+  font-family: 'clash-grotesk';
+}
+
+h4{
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  font-family: 'clash-grotesk';
+}
+
+h5{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+h6{
+  font-size: 20px;  
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.fs-small{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.5px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+
+
