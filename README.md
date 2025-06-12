@@ -13,7 +13,8 @@ If you are developing a production application, we recommend updating the config
 
 ```js
    
-export default tseslint.config({  
+export default tseslint.config({
+
 
   extends: [
     // Remove ...tseslint.configs.recommended and replace with this
