@@ -54,6 +54,4 @@ export default tseslint.config({
   },
 })
 ```
-# nuumx
-# nuumx
-# nuumx
+
